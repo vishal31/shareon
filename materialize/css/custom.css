@@ -1,0 +1,126 @@
+/* ACCOUNT  */
+.dp-img {
+         width:150px;
+         height:150px;
+         box-shadow: .1em .5em 2em pink;
+         border:1px solid pink;
+}
+
+
+/* acc post info */
+.acc-post-info-container {
+                 position: absolute;
+                 top:.5em;
+                 left: 13em;
+}
+
+.acc-post-info-container p{
+                           font-weight: bolder;
+                           box-shadow: .1em .5em 2em pink;
+                           padding: .5em .5em;
+                           text-align: center;
+                           border:1px solid pink;
+}
+
+/* acc frnd info */
+.acc-frnd-info-container {
+          position: absolute;
+          top: .5em;
+          left: 18em;
+}
+
+.acc-frnd-info-container p{
+  font-weight: bolder;
+  box-shadow: .1em .5em 2em pink;
+  padding: .5em .5em;
+  text-align: center;
+  border:1px solid pink;
+}
+
+.user-name {
+         font-weight: bolder;
+         margin-left: 3.5em;
+         letter-spacing: .1em;
+
+}
+
+
+
+/* HOME PAGE  */
+
+.status-container{
+                 padding-top: .2em;
+                 padding-left: .2em;
+                 box-shadow: 0 0 1em grey;
+}
+
+
+.dp-img-home {
+      max-width:50px;
+      max-height:50px;
+      border-radius: 50%;
+}
+
+.own-name-home {
+           margin-left: .8em;
+           transform: translateY(-.9em);
+           opacity: .5;
+
+
+}
+
+.user-name-home {
+           transform: translateY(-.9em);
+           opacity: .5;
+
+
+}
+
+
+.main-container {
+      margin-top: 3em;
+}
+
+.sub-main-container {
+  margin-bottom:4vh;
+}
+
+/* FEATURE PIC */
+
+.feature-pic-container {
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.img-container {
+          width:  150px;
+          height: 150px;
+          margin-bottom: 10px;
+          margin-left: 1px;
+          margin-right: 1px;
+}
+
+  .feature-img{
+              object-fit:cover;
+              width:100%;
+              height: inherit;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width:600px) {
+
+     .btn-position {
+          position: absolute;
+         }
+}
